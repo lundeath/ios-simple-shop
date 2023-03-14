@@ -11,7 +11,7 @@ import SwiftUI
 struct second_touchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }

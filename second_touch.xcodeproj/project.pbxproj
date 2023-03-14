@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E26C0EBA29C0FB44004E94B3 /* second_touchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26C0EB929C0FB44004E94B3 /* second_touchApp.swift */; };
-		E26C0EBC29C0FB44004E94B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26C0EBB29C0FB44004E94B3 /* ContentView.swift */; };
 		E26C0EBE29C0FB46004E94B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26C0EBD29C0FB46004E94B3 /* Assets.xcassets */; };
 		E26C0EC129C0FB46004E94B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26C0EC029C0FB46004E94B3 /* Preview Assets.xcassets */; };
 		E26C0ECB29C0FB46004E94B3 /* second_touchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26C0ECA29C0FB46004E94B3 /* second_touchTests.swift */; };
 		E26C0ED529C0FB46004E94B3 /* second_touchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26C0ED429C0FB46004E94B3 /* second_touchUITests.swift */; };
 		E26C0ED729C0FB46004E94B3 /* second_touchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26C0ED629C0FB46004E94B3 /* second_touchUITestsLaunchTests.swift */; };
+		E26C0EE829C111A6004E94B3 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26C0EE729C111A6004E94B3 /* WelcomeScreenView.swift */; };
+		E26C0EEA29C1125D004E94B3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26C0EE929C1125D004E94B3 /* LoginView.swift */; };
+		E26C0EEC29C11405004E94B3 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26C0EEB29C11405004E94B3 /* SignInScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		E26C0EB629C0FB44004E94B3 /* second_touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = second_touch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26C0EB929C0FB44004E94B3 /* second_touchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = second_touchApp.swift; sourceTree = "<group>"; };
-		E26C0EBB29C0FB44004E94B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E26C0EBD29C0FB46004E94B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E26C0EC029C0FB46004E94B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E26C0EC629C0FB46004E94B3 /* second_touchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = second_touchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,9 @@
 		E26C0ED029C0FB46004E94B3 /* second_touchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = second_touchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26C0ED429C0FB46004E94B3 /* second_touchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = second_touchUITests.swift; sourceTree = "<group>"; };
 		E26C0ED629C0FB46004E94B3 /* second_touchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = second_touchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E26C0EE729C111A6004E94B3 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		E26C0EE929C1125D004E94B3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E26C0EEB29C11405004E94B3 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				E26C0EB929C0FB44004E94B3 /* second_touchApp.swift */,
-				E26C0EBB29C0FB44004E94B3 /* ContentView.swift */,
+				E26C0EE329C108AC004E94B3 /* Login */,
 				E26C0EBD29C0FB46004E94B3 /* Assets.xcassets */,
 				E26C0EBF29C0FB46004E94B3 /* Preview Content */,
 			);
@@ -125,6 +129,24 @@
 				E26C0ED629C0FB46004E94B3 /* second_touchUITestsLaunchTests.swift */,
 			);
 			path = second_touchUITests;
+			sourceTree = "<group>";
+		};
+		E26C0EE329C108AC004E94B3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E26C0EE629C110FE004E94B3 /* Screens */,
+				E26C0EE929C1125D004E94B3 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E26C0EE629C110FE004E94B3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E26C0EE729C111A6004E94B3 /* WelcomeScreenView.swift */,
+				E26C0EEB29C11405004E94B3 /* SignInScreenView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E26C0EBC29C0FB44004E94B3 /* ContentView.swift in Sources */,
+				E26C0EEC29C11405004E94B3 /* SignInScreenView.swift in Sources */,
+				E26C0EEA29C1125D004E94B3 /* LoginView.swift in Sources */,
+				E26C0EE829C111A6004E94B3 /* WelcomeScreenView.swift in Sources */,
 				E26C0EBA29C0FB44004E94B3 /* second_touchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
